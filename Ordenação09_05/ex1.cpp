@@ -16,7 +16,7 @@ void function(int v[], int tamanho){
                 aux = v[j];
                 v[j] = v[j+1];
                 v[j+1] = aux;
-
+             
                 trocou = 1;
             }
         }
